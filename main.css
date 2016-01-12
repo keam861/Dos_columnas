@@ -1,0 +1,41 @@
+.container {
+  margin: 0 auto;  
+  width: 750px;
+}
+
+/*Header*/
+
+header {
+  background-color: black;
+  height: 100px;
+}
+h1 {
+  text-align: center;
+  font-size: 27px;
+  margin: 30px 0; 
+}
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+
+/*Columnas*/
+
+#content {
+  float: left;
+  width: 48%;
+}
+#sidebar {
+  float: right;
+  width: 48%;
+  margin: 50px 0 0
+}
+#cleared {
+  clear: both;
+}
+
+/*Img*/
+
+img{
+  width: 100%;
+}
